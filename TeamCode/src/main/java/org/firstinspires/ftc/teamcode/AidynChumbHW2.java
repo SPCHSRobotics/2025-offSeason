@@ -1,5 +1,5 @@
 package org.firstinspires.ftc.teamcode;
 
 public class AidynChumbHW2 {
-    int e = 67;
+    int number = 67;
 }
