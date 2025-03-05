@@ -10,7 +10,7 @@ public class JayeBirkinHW2 {
     String name = "Jaye marcus Brikin";
     final int constant = 7;
 
-    //left front
+    //left front motor
     public DcMotorSimple leftFrontMotor;
 
     /*
