@@ -6,7 +6,7 @@ public class JayeBirkinHW2 {
 
     public int camelCase = 45843;
     int numberEqualToTwoHundred = 200;
-    private double Tomatoes = 32944.5432;
+    private double tomatoes = 32944.5432;
     String name = "Jaye marcus Brikin";
     final int constant = 7;
 
