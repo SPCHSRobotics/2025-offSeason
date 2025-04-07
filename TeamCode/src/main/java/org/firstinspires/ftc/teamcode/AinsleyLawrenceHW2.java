@@ -1,5 +1,5 @@
 package org.firstinspires.ftc.teamcode;
-
+/*
 public class AinsleyLawrenceHW2 {
     String name = "Taiwan";
     System.out.println(name)
@@ -19,3 +19,5 @@ public class AinsleyLawrenceHW2 {
     Constant moreNumbers = 2;
 //This is a number that remains the same throughout the process
 }
+
+ */
