@@ -1,5 +1,5 @@
 package org.firstinspires.ftc.teamcode;
-/*
+
 public class TahjRiversHW24 {
 
     int numbers = 2;
@@ -21,6 +21,3 @@ public class TahjRiversHW24 {
     float her = 142.78f ;
 
 }
-
-
- */
