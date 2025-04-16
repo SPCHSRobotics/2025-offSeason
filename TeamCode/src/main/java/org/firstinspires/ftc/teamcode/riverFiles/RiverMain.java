@@ -15,14 +15,25 @@ public class  RiverMain extends LinearOpMode {
 
     String detectedColor = "NULL";
 
+
+
+
     @Override
     public void runOpMode() throws InterruptedException {
-        riverFunctions.helloFTC(telemetry);
 
-        detectedColor = riverFunctions.colorSensorGetColor(colorSensor,gamepad1, gamepad2, telemetry);
+        colorSensor = hardwareMap.get(NormalizedColorSensor.class, "sensor_color");
 
-        telemetry.addData("Intake Sample Color", detectedColor);
+        waitForStart();
 
-        telemetry.update();
+        while (opModeIsActive()) {
+            riverFunctions.helloFTC(telemetry);
+
+            detectedColor = riverFunctions.colorSensorGetColor(colorSensor,gamepad1, gamepad2, telemetry);
+
+            telemetry.addData("Intake Sample Color", detectedColor);
+
+            telemetry.update();
+        }
+
     }
 }

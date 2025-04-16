@@ -48,6 +48,7 @@ public class ConceptNullOp extends OpMode {
    */
   @Override
   public void init() {
+
     telemetry.addData("Status", "Initialized");
   }
 
